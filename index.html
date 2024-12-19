@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoyageVerse - Explore Your World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">VoyageVerse</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#wishlist">Wishlist</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#features">Features</a></li>
+        </ul>
+      </nav>
+      <a href="#login" class="btn login-btn">Login</a>
+    </div>
+  </header>
+
+  
+  <section id="home" class="hero">
+    <div class="container text-center">
+      <h2>Unleash Your Wanderlust</h2>
+      <p>Discover breathtaking destinations and create your ultimate travel wishlist with VoyageVerse.</p>
+      <a href="#wishlist" class="btn">Start Your Journey</a>
+    </div>
+  </section>
+
+  
+  <section id="wishlist" class="wishlist">
+    <div class="container">
+      <h2 class="section-title">Your Wishlist</h2>
+      
+      
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for your dream destination..." oninput="filterDestinations()">
+      </div>
+
+      
+      <div id="destinationGrid" class="grid">
+        <div class="card" data-name="Paris">
+          <div class="placeholder">Photo will be added later</div>
+          <h3>Paris</h3>
+          <p>The City of Love awaits with iconic landmarks and vibrant culture.</p>
+        </div>
+        <div class="card" data-name="Tokyo">
+          <div class="placeholder">Photo will be added later</div>
+          <h3>Tokyo</h3>
+          <p>From cherry blossoms to futuristic skyscrapers, Tokyo has it all.</p>
+        </div>
+        <div class="card" data-name="New York">
+          <div class="placeholder">Photo will be added later</div>
+          <h3>New York</h3>
+          <p>The city that never sleeps offers endless attractions.</p>
+        </div>
+        <div class="card" data-name="Rome">
+          <div class="placeholder">Photo will be added later</div>
+          <h3>Rome</h3>
+          <p>Explore ancient ruins and savor authentic Italian cuisine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <h2 class="section-title">Traveler Reviews</h2>
+      <div class="review-card">
+        <h3>Paris</h3>
+        <p><strong>Aaryan:</strong> "The Eiffel tower, 'lohe ka dhaacha' during the day,a completely different beauty at night. </p>
+      </div>
+      <div class="review-card">
+        <h3>Tokyo</h3>
+        <p><strong>Kalpesh:</strong> "Incredible food and friendly locals."</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container text-center">
+      <p>VoyageVerse. Explore, Plan, and Share.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
